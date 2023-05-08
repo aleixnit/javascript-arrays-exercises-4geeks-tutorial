@@ -1,7 +1,7 @@
 let mix = [42, true, "towel", [2,1], 'hello', 34.4, {"name": "juan"}];
 
 //your code here
-
+function printDataTypes(arr) {
 //creamos un array donde se va a guardar los tipos de datos del array original.
 const newArray = [];
 
@@ -9,5 +9,5 @@ const newArray = [];
 for(i = 0; i < mix.length; i++) {
     arr.push(typeof mix[i]);
 }
-
 console.log(newArray);
+}
